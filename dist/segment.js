@@ -40,6 +40,7 @@ function Segment(path, begin, end, circular){
     this.timer = null;
     this.animationTimer = null;
     this.draw(this.begin, this.end, 0, {circular: this.circular});
+    this.stop = this.stop;
 }
 
 Segment.prototype = {
